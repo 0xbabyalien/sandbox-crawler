@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "sandbox-crawler"
+version = "0.1.0"
+description = "Curated-at-scale GitHub repository crawler and hybrid agent skill knowledge base"
+requires-python = ">=3.10"
+dependencies = []
+[project.scripts]
+ghskill = "ghskill.cli:main"
+ghskill-mcp = "ghskill.mcp_server:main"
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["ghskill*"]

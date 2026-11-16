@@ -1,0 +1,38 @@
+{
+  "search_queries": [
+    "bug bounty language:Python",
+    "vulnerability research language:Python",
+    "web security testing language:Python",
+    "API security testing",
+    "smart contract security audit",
+    "solidity fuzzing invariant testing",
+    "wallet security blockchain",
+    "security tools fuzzing static analysis",
+    "autonomous coding agent",
+    "AI coding agent repository",
+    "software testing automation",
+    "code review automation",
+    "software architecture examples",
+    "performance benchmarking tools",
+    "reverse engineering security research",
+    "penetration testing framework",
+    "Hermes Agent skills",
+    "SKILL.md agent skills"
+  ],
+  "topics": ["bug-bounty", "application-security", "api-security", "smart-contract-security", "fuzzing", "coding-agents", "software-engineering", "testing", "benchmarking"],
+  "max_pages_per_query": 3,
+  "per_page": 30,
+  "max_repos_per_run": 250,
+  "max_repo_mb": 30,
+  "max_files_per_repo": 2500,
+  "max_file_bytes": 500000,
+  "request_timeout": 30,
+  "excluded_dirs": [".git", "node_modules", "vendor", "dist", "build", ".venv", "venv", "target", "coverage", "__pycache__"],
+  "allowed_extensions": [".md", ".mdx", ".rst", ".txt", ".py", ".js", ".jsx", ".ts", ".tsx", ".go", ".rs", ".sol", ".c", ".h", ".cpp", ".java", ".rb", ".php", ".sh", ".yaml", ".yml", ".toml", ".json"],
+  "important_names": ["README.md", "SKILL.md", "AGENTS.md", "CONTRIBUTING.md", "SECURITY.md", "pyproject.toml", "package.json", "Cargo.toml", "foundry.toml"],
+  "categories": {
+    "coding": ["coding agent", "software engineering", "code generation", "refactoring", "debugging", "architecture", "typescript", "python", "rust", "testing", "benchmark"],
+    "security": ["bug bounty", "vulnerability", "security", "penetration testing", "fuzzing", "audit", "smart contract", "solidity", "wallet", "api security", "reverse engineering", "exploit"],
+    "both": ["agent", "automation", "mcp", "tool calling", "orchestration", "repository" ]
+  }
+}

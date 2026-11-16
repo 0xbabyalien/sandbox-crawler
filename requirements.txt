@@ -1,0 +1,2 @@
+# Core crawler uses Python standard library only.
+# Optional semantic embeddings: pip install -e '.[semantic]' after adding an embedding backend.
